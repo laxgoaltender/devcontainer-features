@@ -11,7 +11,7 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "kubeseal": {
-                "version": "v0.39.1"
+                "version": "0.39.1"
             }
         }
     }
