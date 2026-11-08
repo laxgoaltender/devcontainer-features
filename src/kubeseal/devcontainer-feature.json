@@ -1,0 +1,20 @@
+{
+    "name": "kubeseal",
+    "id": "kubeseal",
+    "version": "0.0.1",
+    "description": "Kubeseal is the CLI companion for bitnami sealed-secrets, a kubernetes GitOps secrets manager.",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select or enter an kubeseal version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/kubectl-helm-minikube"
+    ]
+}
