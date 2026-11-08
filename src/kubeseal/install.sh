@@ -67,11 +67,11 @@ install_kubeseal()
 		    exit 1
 		fi
 
-		curl -OL -o /tmp/kubeseal.tar.gz "https://github.com/bitnami/sealed-secrets/releases/download/v${KUBESEAL_VERSION}/kubeseal-${KUBESEAL_VERSION}-linux-amd64.tar.gz"
-		tar -xvzf /tmp/kubeseal.tar.gz kubeseal --directory=/usr/local/bin/
+		curl -OL --output-dir /tmp "https://github.com/bitnami/sealed-secrets/releases/download/v${KUBESEAL_VERSION}/kubeseal-${KUBESEAL_VERSION}-linux-amd64.tar.gz"
+		tar -xvzf /tmp/kubeseal-${KUBESEAL_VERSION}-linux-amd64.tar.gz kubeseal --directory=/usr/local/bin/
 		chmod 0755 /usr/local/bin/kubeseal
 
-		rm -f /tmp/kubeseal.tar.gz
+		rm -f /tmp/kubeseal-${KUBESEAL_VERSION}-linux-amd64.tar.gz
 	fi
 }
 
