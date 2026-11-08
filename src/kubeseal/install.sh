@@ -54,7 +54,7 @@ install_kubeseal()
 {
 	echo "Installing kubeseal"
 
-	if [ "${KUBESEAL_VERSION}" = "none" ] || type flux > /dev/null 2>&1; then
+	if [ "${KUBESEAL_VERSION}" = "none" ] || type kubeseal > /dev/null 2>&1; then
 	    echo "Kubeseal already installed. Skipping..."
 	else
 		if [ "${KUBESEAL_VERSION}" = "latest" ]; then

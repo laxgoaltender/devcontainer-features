@@ -1,7 +1,7 @@
 {
     "name": "kubeseal",
     "id": "kubeseal",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Kubeseal is the CLI companion for bitnami sealed-secrets, a kubernetes GitOps secrets manager.",
     "options": {
         "version": {
