@@ -9,10 +9,10 @@ set -e
 source dev-container-features-test-lib
 
 echo "Kompose version:"
-kompose --version
+kompose version
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "execute command" bash -c "kompose --version | grep 'kompose version: 0.36.0'"
+check "execute command" bash -c "kompose version | grep 'kompose version: 0.36.0'"
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.
