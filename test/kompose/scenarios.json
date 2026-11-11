@@ -1,0 +1,18 @@
+{
+    "latest_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "kompose": {
+                "version": "latest"
+            }
+        }
+    },
+    "explicit_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "kompose": {
+                "version": "0.39.1"
+            }
+        }
+    }
+}

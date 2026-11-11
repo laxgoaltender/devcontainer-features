@@ -1,0 +1,20 @@
+{
+    "name": "kompose",
+    "id": "kompose",
+    "version": "0.1.0",
+    "description": "Kompose is a tool to convert from docker-compose to kubernetes manifests",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select or enter an kompose version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/kubectl-helm-minikube"
+    ]
+}

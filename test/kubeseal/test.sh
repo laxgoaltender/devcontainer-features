@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # This test file will be executed against an auto-generated devcontainer.json that
-# includes the 'flux2' Feature with no options.
+# includes the 'kubeseal' Feature with no options.
 
 set -e
 

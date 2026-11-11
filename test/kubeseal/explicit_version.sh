@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # This test file will be executed against one of the scenarios devcontainer.json test that
-# includes the 'flux2' feature with "version": "latest" option.
+# includes the 'kubeseal' feature with "version": "latest" option.
 
 set -e
 
