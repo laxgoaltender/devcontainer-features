@@ -1,0 +1,20 @@
+{
+    "name": "gitops-zombies",
+    "id": "gitops-zombies",
+    "version": "0.1.0",
+    "description": "gitops-zombies discovers all apis installed on a cluster and identifies resources which are not part of a flux Kustomization or a HelmRelease.",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select or enter a gitops-zombies version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/kubectl-helm-minikube"
+    ]
+}
