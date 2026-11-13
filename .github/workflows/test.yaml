@@ -14,8 +14,9 @@ jobs:
       matrix:
         features:
           - flux2
-          - kubeseal
+          - gitops-zombies
           - kompose
+          - kubeseal
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -36,8 +37,9 @@ jobs:
       matrix:
         features:
           - flux2
-          - kubeseal
+          - gitops-zombies
           - kompose
+          - kubeseal
     steps:
       - uses: actions/checkout@v7
 
