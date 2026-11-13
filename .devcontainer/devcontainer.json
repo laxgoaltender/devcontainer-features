@@ -28,11 +28,17 @@
                 ]
             },
             "extensions": [
+                "github.vscode-github-actions",
                 "mads-hartmann.bash-ide-vscode",
-                "timonwong.shellcheck",
                 "mkhl.shfmt",
-                "github.vscode-github-actions"
+                "ms-azuretools.vscode-docker",
+                "timonwong.shellcheck"
             ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:4.1.3": {
+            "moby": "false"
         }
     },
     "remoteUser": "node",
