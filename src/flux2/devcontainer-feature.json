@@ -11,6 +11,14 @@
             ],
             "default": "latest",
             "description": "Select or enter an Flux 2 version."
+        },
+        "flux9s_version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Version of flux9s to install, or 'none' to skip."
         }
     },
     "customizations": {
