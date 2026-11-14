@@ -1,8 +1,11 @@
 # Dev Container Features: 
 
-## FluxCD with shell completion
+## Flux2
+Originally based on [Sam's Additional Development Container Features](https://github.com/goldsam/dev-container-features).
 
-> Flux devcontainer is originally based on [Sam's Additional Development Container Features](https://github.com/goldsam/dev-container-features), copied into a fresh copy of the [Dev Container feature template](https://github.com/devcontainers/feature-starter)
+ - Adds flux CLI shell completion for bash and ZSH
+ - Optionally install [flux9s](https://github.com/dgunzy/flux9s), a k9s inspired TUI
+    - Flux9s is not currently working in `debian:latest` containers. I use Ubuntu, which does not have a problem, so I'm unmotivated to investigate it.
 
 ## Gitops Zombies
 [https://github.com/raffis/gitops-zombies](https://github.com/raffis/gitops-zombies)

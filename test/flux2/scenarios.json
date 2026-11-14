@@ -3,7 +3,8 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "flux2": {
-                "version": "latest"
+                "version": "latest",
+                "flux9s_version": "latest"
             }
         }
     },
@@ -11,7 +12,8 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "flux2": {
-                "version": "2.1.2"
+                "version": "2.1.2",
+                "flux9s_version": "1.5.0"
             }
         }
     }
