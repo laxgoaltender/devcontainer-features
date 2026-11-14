@@ -16,6 +16,7 @@ Flux is a tool for keeping Kubernetes clusters in sync with sources of configura
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | version | Select or enter an Flux 2 version. | string | latest |
+| flux9s_version | Version of flux9s to install, or 'none' to skip. | string | latest |
 
 ## Customizations
 
